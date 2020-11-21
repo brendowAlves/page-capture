@@ -24,5 +24,36 @@ header {
 }
 
 section {
+  padding: 15px;
+  background-image: url("../images/people.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.formContainer {
+  max-width: 230px;
+  background-color: #ffffffbb;
+  padding: 15px;
+  float: right;
+}
+h2 {
+  font-size: 16px;
+}
+
+.mb {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+}
+
+input[type="submit"] {
   color: white;
+  background-color: #48c5ce;
+  font-weight: bold;
 }
